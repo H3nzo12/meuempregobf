@@ -1,0 +1,26 @@
+{
+    "name": "henzo/meuempregobf",
+    "description": "Projeto MVC realizado com o Fabio",
+    "type": "project",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Henzo Matheus F. Borges",
+            "email": "henzomatheusf@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    
+    "require": {
+        "filp/whoops": "^2.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        },
+        "files": [
+            "helpers/helpers.php"
+        ]
+    }
+}
