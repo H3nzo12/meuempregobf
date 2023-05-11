@@ -1,0 +1,10 @@
+<h1>echo "Chegamos ao controller e disparamos a action index";</h1>
+
+<h2>Simulando dados do banco</h2>
+
+<?php 
+//dd($dados);
+foreach ($this->view->dados as $key => $value) { ?>
+    <p> <?= $value ?> </p>
+    
+<?php } ?>
